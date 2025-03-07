@@ -180,12 +180,12 @@ span.flatpickr-weekday,
 
 .bg-white {
   --tw-bg-opacity: 1 !important;
-  background-color: rgba(17, 24, 39, var(--tw-bg-opacity)) !important;
+  background-color: rgba(255, 255, 255, var(--tw-bg-opacity)) !important;
 }
 
 .hover\:bg-slate-50:hover {
   --tw-bg-opacity: 1 !important;
-  background-color: rgba(30, 41, 59, var(--tw-bg-opacity)) !important;
+  background-color: rgba(255, 255, 255, var(--tw-bg-opacity)) !important;
 }
 
 .btn-shine {

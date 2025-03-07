@@ -15,21 +15,20 @@ const ECommerce: React.FC = () => {
         organization.slug != null &&
         upsolveToken != null &&
         typeof upsolveToken === "string" && (
-          <UpsolveProvider>
-            <UpsolveDashboard
-              dashboardId={"8c76dd47-8f70-4d51-86b2-a6926d254626"}
-              tenantJWT={upsolveToken}
-              hideHeader={true}
-              tabPlacement="popover"
-              tenantEditingPermissions={{
-                addChart: true,
-                addFilter: true,
-                removeChart: true,
-                createChart: true,
-              }}
-              theme="light"
-            />
-          </UpsolveProvider>
+          <UpsolveDashboard
+            dashboardId={"8c76dd47-8f70-4d51-86b2-a6926d254626"}
+            tenantJWT={upsolveToken}
+            hideHeader={true}
+            tabPlacement="popover"
+            tenantEditingPermissions={{
+              addChart: true,
+              addFilter: true,
+              removeChart: true,
+              createChart: true,
+              aiCharts: true,
+            }}
+            theme="light"
+          />
         )}
     </>
   );
